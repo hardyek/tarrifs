@@ -1,0 +1,76 @@
+Model 1: Market Price Impact Model
+
+Input Data
+
+Historical commodity prices during tariff periods
+- 5 YEAR HISTORY (1 year pre-tariff 4 year during tariff) [Daily Price]
+- WEATHER 
+
+Feature Engineering
+
+Tariff impact lag indicators
+Market sentiment indicators
+Supply chain disruption metrics
+Substitute commodity relationships  
+
+Output Features
+
+Short-term price elasticity to tariffs
+Long-term price equilibrium predictions
+Confidence intervals for soybean forecasts
+Market adjustment period estimates
+
+Model 2: Farm Price Received Model
+
+Input Data
+
+Market price predictions from Model 1
+Historical farm-gate prices
+Transportation costs
+Storage costs
+Regional market access metrics
+Contract structures
+
+Key Components
+
+Price transmission efficiency
+Regional price differentials
+Seasonal storage effects
+Contract premium/discount factors
+
+Output Features
+
+Farm-gate price forecasts
+Regional price variation estimates
+Price risk metrics
+Basis prediction models
+
+Model 3: Consumer Price Index Impact Model
+Input Data
+
+Market prices from Model 1
+Supply chain cost structures
+Retail markup patterns
+Consumer substitution patterns
+Processing costs
+
+Analysis Components
+
+Price transmission through supply chain
+Processing margin impacts
+Retail competition effects
+Consumer behavior response
+
+Validation Framework
+
+Out-of-sample testing
+Cross-validation across commodities
+Sensitivity analysis
+Model performance metrics
+
+Integration Points
+
+Sequential model dependencies
+Feedback loop mechanisms
+Error propagation handling
+Update frequency protocols
